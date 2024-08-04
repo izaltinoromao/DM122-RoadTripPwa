@@ -1,4 +1,4 @@
-import { addTrip, getAllTrips, deleteTrip } from '/helpers/repository-db.js';
+import { addTrip, getAllTrips, deleteTrip } from './helpers/repository-db.js';
 
 
 async function updateTable() {
