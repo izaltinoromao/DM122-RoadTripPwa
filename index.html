@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="/images/favicon-32x32.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="/images/favicon-16x16.png"
+  />
+  <link rel="manifest" href="manifest.json" />
+  <title>Road Trip History</title>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.fluid.classless.min.css"
+  />
+  <script type="module" src="./main.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Road Trip History</h1>
+    <form id="trip-form">
+      <fieldset role="group">
+        <input type="text" id="origin" placeholder="Origin" required />
+        <input type="text" id="destination" placeholder="Destination" required />
+        <input type="date" id="date" required />
+        <button type="submit">Add</button>
+      </fieldset>
+    </form>
+  </header>
+  <main>
+    <table>
+      <thead>
+        <tr>
+          <th>Origin</th>
+          <th>Destination</th>
+          <th>Date</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- New line will be added here inside main.js -->
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>

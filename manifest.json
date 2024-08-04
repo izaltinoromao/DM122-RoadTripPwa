@@ -1,0 +1,42 @@
+{
+    "name": "Road Trip History",
+    "short_name": "RoadTrip",
+    "description": "A PWA for managing and documenting road trips.",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4CAF50",
+    "icons": [
+      {
+        "src": "images/car.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "images/car.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "images/car.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "images/car.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "images/car.png",
+        "sizes": "168x168",
+        "type": "image/png"
+      },
+      {
+        "src": "images/car.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+}
+  
