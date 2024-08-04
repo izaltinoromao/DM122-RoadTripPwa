@@ -2,14 +2,14 @@
 
 ## Description
 
-"Road Trip History" is a web application for managing and documenting road trips. It allows users to add, view, and delete trips, and provides a feature to get directions between departure and destination points using Google Maps. This application is built as a Progressive Web App (PWA) with offline capabilities using IndexedDB for local storage.
+"Road Trip History" is a web application for managing and documenting road trips. It allows users to add, view, and delete trips, and provides a feature to get directions between origin and destination points using Google Maps. This application is built as a Progressive Web App (PWA) with offline capabilities using IndexedDB for local storage.
 
 ## Features
 
 - Add new trips with origin, destination, and date details.
 - View a list of recorded trips in a table format.
 - Delete trips from the list (🗑️).
-- Get directions on Google Maps for the route between the departure and destination points (🗺️).
+- Get directions on Google Maps for the route between the origin and destination points (🗺️).
 - Offline functionality via Progressive Web App (PWA) features.
 
 ## Technologies
